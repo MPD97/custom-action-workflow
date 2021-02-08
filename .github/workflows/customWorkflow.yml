@@ -1,0 +1,8 @@
+name: Custom workflow
+on: push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: MPD97/custom-action@main
